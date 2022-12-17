@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.head, footer {
+    background-color: #FBE04D;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.input-area, .output-area {
+    background-color: #FDE68A;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inner-input, .inner-output {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+textarea {
+    border: 0.5px #FBE04D;
+    font-size: 2rem;
+}
+
+#btn-translate{
+    background-color: #FBE04D;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+}
+
+#btn-translate:hover {
+    background-color: #F59E0B;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+#output-txt {
+    background-color: white;
+    padding: rem;
+}
